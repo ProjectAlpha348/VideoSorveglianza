@@ -1,4 +1,3 @@
-
 import cv2
 import time
 import datetime as dt
@@ -9,11 +8,7 @@ import dropbox
 from dropbox.files import WriteMode
 from dropbox.exceptions import ApiError, AuthError
 # Access token
-TOKEN = 'DQoIUNUAH7EAAAAAAAABaSDP8gXCoD-d2TMA78TGaidyAryjdF7mGbvuhjO9fHkt'
-
-#LOCALFILE = 'DbxToken.txt'
-#BACKUPPATH = '/Foto/' # Keep the forward slash before destination filename
-
+TOKEN = 'DQoIUNUAH7EAAAAAAAAHdqLXXoiJkPlK_DnOmhTN6EYFeRj7v1kDzMe3_OLD-gig'
 
 # Uploads contents of LOCALFILE to Dropbox
 def backup():
